@@ -4653,3 +4653,21 @@ flex-wrap: wrap;
     display: none;
   }
 }
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.iconfont {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
